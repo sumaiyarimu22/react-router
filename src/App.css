@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  background-color: black;
+  color: white;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 0 2rem;
+}
+.logo {
+  font-weight: 500;
+  color: orangered;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+.links a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  color: orangered;
+}
+button {
+  font-size: 2rem;
+  cursor: pointer;
+}
